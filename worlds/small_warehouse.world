@@ -31,18 +31,27 @@
         <pose frame="">0.0 0.0 0 0 0 0</pose>
 	</model>
 
-        <model name="aws_robomaker_warehouse_ShelfE_01_001">
-        <include>
-            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
-        </include>
-        <pose frame="">4.73156 0.57943 0 0 0 0</pose>
-	</model>
+      <model name="pallet_0">
+          <include>
+              <uri>model://warehouse_pallet</uri>
+          </include>
+          <pose frame="">4.73156 0.57943 0 0 0 0</pose>
+      </model>
+
+
+
+<!--        <model name="aws_robomaker_warehouse_ShelfE_01_001">-->
+<!--        <include>-->
+<!--            <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>-->
+<!--        </include>-->
+<!--        <pose frame="">4.73156 0.57943 0 0 0 0</pose>-->
+<!--	</model>-->
 
         <model name="aws_robomaker_warehouse_ShelfE_01_002">
         <include>
             <uri>model://aws_robomaker_warehouse_ShelfE_01</uri>
         </include>
-        <pose frame="">4.73156 -4.827049 0 0 0 0</pose>
+        <pose frame="">3.728 -4.827049 0 0 0 1.588</pose>
 	</model>
         
         <model name="aws_robomaker_warehouse_ShelfE_01_003">
