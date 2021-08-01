@@ -61,7 +61,7 @@
       <model name="pallet_1">
           <include>
               <uri>model://warehouse_pallet3</uri>
-              <pose>0 0 0 0 0 1</pose>
+              <pose>0 0 0 0 0 0</pose>
 
           </include>
         <pose frame="">3.728 -4.827049 0 0 0 1.588</pose>
@@ -80,7 +80,7 @@
       <model name="pallet_2">
           <include>
               <uri>model://warehouse_pallet3</uri>
-              <pose>0 0 0 0 0 1</pose>
+              <pose>0 0 0 0 0 0</pose>
 
           </include>
           <pose frame="">3.728  -8.6651 0 0 0 1.588</pose>
@@ -101,7 +101,7 @@
       <model name="pallet_3">
           <include>
               <uri>model://warehouse_pallet3</uri>
-              <pose>0 0 0 0 0 1</pose>
+              <pose>0 0 0 0 0 0</pose>
 
           </include>
           <pose frame="">3.728  -1.242668 0 0 0 1.588</pose>
@@ -118,7 +118,7 @@
       <model name="pallet_4">
           <include>
               <uri>model://warehouse_pallet3</uri>
-              <pose>0 0 0 0 0 1</pose>
+              <pose>0 0 0 0 0 0</pose>
 
           </include>
           <pose frame="">3.728  -3.038551 0 0 0 1.588</pose>
@@ -135,7 +135,7 @@
       <model name="pallet_5">
           <include>
               <uri>model://warehouse_pallet3</uri>
-              <pose>0 0 0 0 0 1</pose>
+              <pose>0 0 0 0 0 0</pose>
 
           </include>
           <pose frame="">3.728  -6.750542 0 0 0 1.588</pose>
@@ -172,7 +172,7 @@
         <include>
             <uri>model://aws_robomaker_warehouse_Lamp_01</uri>
         </include>
-        <pose frame="">0 0 -4 0 0 0</pose>
+        <pose frame="">0 0 5 0 0 0</pose>
 	</model>
        
 	
@@ -286,7 +286,7 @@
 
     	
     <light name="Warehouse_CeilingLight_003" type="point">
-      <pose frame="">0 0 9 0 0 0</pose>
+      <pose frame="">0 0 18 0 0 0</pose>
       <diffuse>0.5 0.5 0.5 1</diffuse>
       <specular>0.2 0.2 0.2 1</specular>
       <attenuation>
